@@ -1,23 +1,29 @@
 import { Navigation } from '../components/Navigation';
-import { Section } from '../components/Sections';
+import {
+  About,
+  Certifications,
+  Experience,
+  Section,
+  Skills,
+} from '../components/Sections';
 
 export const Layout = () => {
   return (
-    <div className="h-screen flex-col bg-gray-950 text-yellow-400">
-      <main className="divide-y-2 divide-yellow-400">
+    <div className="flex-col bg-gray-950 text-black">
+      <main className="divide-y-2 divide-black">
         <Navigation />
-
-        <Section.About />
-
-        <section id="skills" className="h-screen">
-          oi
-        </section>
-        <section id="about" className="h-1/2">
-          oi
-        </section>
-        <section id="about" className="h-1/2">
-          oi
-        </section>
+        <Section id="about">
+          <About />
+        </Section>
+        <Section id="skills">
+          <Skills />
+        </Section>
+        <Section id="experience">
+          <Experience />
+        </Section>
+        <Section id="certifications">
+          <Certifications />
+        </Section>
       </main>
     </div>
   );
