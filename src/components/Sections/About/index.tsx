@@ -2,15 +2,24 @@ import profileImg from '../../../assets/images/profile.jpg';
 
 export const About = () => {
   return (
-    <section id="about" className="flex h-screen bg-sky-950 p-4 ">
-      <div class>
+    <div className="flex flex-col items-center justify-around gap-4 md:flex-row">
+      <div className="flex flex-col items-center gap-4">
         <img
           src={profileImg}
           alt="Rosto de um homem pardo com barba preta e cabelo raspado"
           className="w-1/2 rounded-full"
         />
+        <div className="flex flex-col items-center justify-center gap-4">
+          <span>Thiago Leite</span>
+          <strong>Desenvolvedor Full Stack</strong>
+        </div>
       </div>
-      <div></div>
-    </section>
+      <div className="flex flex-col items-center justify-center gap-4">
+        <p className="flex h-fit  gap-4 text-justify text-2xl">
+          Olá, me chamo Thiago Leite. Ex-profissional de educação física em
+          transição de carreira para área tech.
+        </p>
+      </div>
+    </div>
   );
 };
