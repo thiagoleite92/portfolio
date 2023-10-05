@@ -12,7 +12,7 @@ export const Experience = () => {
         </p>
         <div>
           <span className="text-justify">
-            Desenvolvimento de novas features em projetos da Mutant e BrComerce,
+            Desenvolvimento de novas features em projetos da Mutant e BrComerce.
             Além de correção de bugs em diversos projetos.
           </span>
         </div>
