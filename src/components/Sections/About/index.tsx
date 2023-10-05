@@ -10,13 +10,12 @@ export const About = () => {
           className="w-1/2 rounded-full"
         />
         <div className="flex flex-col items-center justify-center gap-4">
-          <span>Thiago Leite</span>
           <strong>Desenvolvedor Full Stack</strong>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center gap-4">
         <p className="flex h-fit  gap-4 text-justify text-2xl">
-          Olá, me chamo Thiago Leite. Ex-profissional de educação física em
+          Olá, meu nome é Thiago Leite. Ex-profissional de educação física em
           transição de carreira para área tech.
         </p>
       </div>

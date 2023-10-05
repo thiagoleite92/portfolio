@@ -5,9 +5,5 @@ type Props = {
 };
 
 export const FrameWorkBullet = ({ children }: Props) => {
-  return (
-    <span className="flex w-full items-center justify-between gap-8">
-      {children}
-    </span>
-  );
+  return <span className="">{children}</span>;
 };
