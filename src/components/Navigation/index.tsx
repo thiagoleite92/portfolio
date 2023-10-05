@@ -5,6 +5,7 @@ export const Navigation = () => {
       <a href="#skills">HABILIDADES</a>
       <a href="#experience">EXPERIÊNCIA</a>
       <a href="#certifications">CERTIFICAÇÕES</a>
+      <a href="#education">EDUCAÇÃO</a>
       <a href="#free-courses">CURSOS LIVRES</a>
     </nav>
   );

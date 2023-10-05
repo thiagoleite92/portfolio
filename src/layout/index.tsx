@@ -2,6 +2,7 @@ import { Navigation } from '../components/Navigation';
 import {
   About,
   Certifications,
+  Education,
   Experience,
   Section,
   Skills,
@@ -9,8 +10,8 @@ import {
 
 export const Layout = () => {
   return (
-    <div className="flex-col bg-gray-950 text-black">
-      <main className="divide-y-2 divide-black">
+    <div className="flex-col  bg-slate-950 px-4 text-2xl text-black">
+      <main className="space-y-2 pb-4">
         <Navigation />
         <Section id="about">
           <About />
@@ -23,6 +24,9 @@ export const Layout = () => {
         </Section>
         <Section id="certifications">
           <Certifications />
+        </Section>
+        <Section id="education">
+          <Education />
         </Section>
       </main>
     </div>
