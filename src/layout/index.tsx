@@ -10,7 +10,7 @@ import {
 
 export const Layout = () => {
   return (
-    <div className="flex-col  rounded-sm bg-slate-950 text-2xl text-black md:px-4 md:pb-4">
+    <div className="flex-col rounded-sm bg-gray-900 text-2xl text-black md:px-16">
       <Navigation />
       <Section id="about">
         <About />

@@ -56,9 +56,9 @@ const freeCourses = [
 
 export const Education = () => {
   return (
-    <div className="flex w-full flex-1 flex-col gap-8 md:p-4">
+    <div className="flex w-full  flex-col gap-8 overflow-y-auto md:p-4">
       <h1 className="self-center">FORMAÇÃO ACADÊMICA</h1>
-      <ul className="flex  h-full list-none flex-col items-start gap-4">
+      <ul className="flex  list-none flex-col items-start gap-4">
         {academicsCourses.map(({ course, college, period }) => (
           <li
             className="flex w-full flex-col items-start justify-between"
@@ -75,7 +75,7 @@ export const Education = () => {
       </ul>
 
       <h1 className="self-center">CURSOS LIVRES</h1>
-      <div className="flex max-h-[500px] flex-col items-start gap-4 overflow-y-auto rounded-xl bg-gray-900 p-2 text-gray-200">
+      <div className="flex max-h-[500px] flex-col  items-start gap-4 overflow-y-auto rounded-xl bg-gray-900 p-2 text-gray-200">
         <ul className="w-full list-none space-y-2 divide-y p-2">
           {freeCourses.map(({ description, name, year }) => (
             <li

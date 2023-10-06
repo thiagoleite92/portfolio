@@ -12,7 +12,7 @@ type Props = {
 export const Section = ({ children, id }: Props) => {
   return (
     <section
-      className="mb-2 flex min-h-screen flex-col justify-center gap-8 bg-gray-200 p-4 md:first-of-type:rounded-t-md md:last-of-type:rounded-b-md"
+      className="mb-2 flex h-screen flex-col justify-center gap-8 bg-gray-200 p-4 md:first-of-type:rounded-t-md md:last-of-type:rounded-b-md"
       id={id}
     >
       {children}
