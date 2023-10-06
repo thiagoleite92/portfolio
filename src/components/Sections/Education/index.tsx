@@ -57,7 +57,6 @@ const freeCourses = [
 export const Education = () => {
   return (
     <div className="flex w-full  flex-col gap-8 overflow-y-auto md:p-4">
-      <h1 className="self-center">FORMAÇÃO ACADÊMICA</h1>
       <ul className="flex  list-none flex-col items-start gap-4">
         {academicsCourses.map(({ course, college, period }) => (
           <li

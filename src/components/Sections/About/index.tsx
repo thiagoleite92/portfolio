@@ -1,8 +1,15 @@
+import { CgMail } from 'react-icons/cg';
+import {
+  AiOutlineWhatsApp,
+  AiFillLinkedin,
+  AiOutlineGithub,
+} from 'react-icons/ai';
+
 import profileImg from '../../../assets/images/profile.jpg';
 
 export const About = () => {
   return (
-    <div className="flex flex-col items-center justify-around gap-4 md:flex-row">
+    <div className="flex w-full flex-1 flex-col items-center  gap-8 md:flex-row md:p-8">
       <div className="flex flex-col items-center gap-4">
         <img
           src={profileImg}
@@ -11,6 +18,34 @@ export const About = () => {
         />
         <div className="flex flex-col items-center justify-center gap-4">
           <strong>Desenvolvedor Full Stack</strong>
+          <div className="flex w-full justify-around gap-4 ">
+            <a
+              href="https://www.linkedin.com/in/leite-tjs/"
+              target="_blank"
+              className="flex items-center justify-start gap-4"
+            >
+              <AiFillLinkedin size={36} />
+            </a>
+            <a
+              href="https://www.github.com/thiagoleite92"
+              target="_blank"
+              className="flex items-center justify-start gap-4"
+            >
+              <AiOutlineGithub size={36} />
+            </a>
+            <a
+              href="mailto:leite.tjs@gmail.com"
+              className="flex items-center justify-start gap-4"
+            >
+              <CgMail size={36} />
+            </a>
+            <a
+              href="tel:+5581983643305"
+              className="flex items-center justify-start gap-4"
+            >
+              <AiOutlineWhatsApp size={36} />
+            </a>
+          </div>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center gap-4">

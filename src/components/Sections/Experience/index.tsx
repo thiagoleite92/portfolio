@@ -1,7 +1,6 @@
 export const Experience = () => {
   return (
     <div className="flex w-full flex-1 flex-col gap-8">
-      <h1 className="self-center">EXPERIÊNCIA</h1>
       <div className="flex  h-full flex-col items-start gap-4">
         <h1 className="flex w-full justify-between">
           TRAINEE{' '}

@@ -8,14 +8,14 @@ import {
 } from '../components/Sections';
 
 export const navIds = [
-  { title: 'SOBRE', id: 'sobre', component: <About /> },
-  { title: 'HABILIDADES', id: 'habilidades', component: <Skills /> },
-  { title: 'EXPERIÊNCIA', id: 'experiencia', component: <Experience /> },
+  { id: 'sobre', component: <About /> },
+  { id: 'habilidades', component: <Skills /> },
+  { id: 'experiência', component: <Experience /> },
   {
-    title: 'CERTIFICAÇÕES',
-    id: 'certificacoes',
+    id: 'certificações',
+
     component: <Certifications />,
   },
-  { title: 'EDUCAÇÃO', id: 'educacao', component: <Education /> },
-  { title: 'PROJETOS', id: 'projetos', component: <Projects /> },
+  { id: 'educação', component: <Education /> },
+  { id: 'projetos', component: <Projects /> },
 ];

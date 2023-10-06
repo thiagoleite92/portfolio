@@ -16,7 +16,6 @@ import { FrameWorkBullet } from '../../FrameWorkBullet';
 export const Skills = () => {
   return (
     <div className="flex flex-1 flex-col">
-      <h1 className="self-center">HABILIDADES</h1>
       <div className="flex flex-col justify-center gap-8">
         <div className="mt-8 flex flex-col items-center justify-center gap-4">
           <p className="flex h-fit  gap-4 text-justify text-2xl">
