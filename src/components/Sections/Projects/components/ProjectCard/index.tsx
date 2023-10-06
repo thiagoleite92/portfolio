@@ -31,7 +31,10 @@ export const ProjectCard = ({
           </li>
         )}
         {repos.map((repo) => (
-          <li className="flex w-full flex-col items-center  justify-center gap-4">
+          <li
+            className="flex w-full flex-col items-center  justify-center gap-4"
+            key={repo?.backend || repo?.frontend}
+          >
             {repo.frontend && (
               <a target="_blank" href={repo.frontend}>
                 Repositório Frontend
