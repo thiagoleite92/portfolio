@@ -1,32 +1,17 @@
 import { Navigation } from '../components/Navigation';
-import {
-  About,
-  Certifications,
-  Education,
-  Experience,
-  Section,
-  Skills,
-} from '../components/Sections';
+import { Section } from '../components/Sections';
+import { navIds } from '../const/navigation';
 
 export const Layout = () => {
   return (
-    <div className="flex-col rounded-sm bg-gray-900 text-2xl text-black md:px-16">
+    <div className="flex-col rounded-sm bg-slate-900 text-2xl text-black md:px-16">
       <Navigation />
-      <Section id="about">
-        <About />
-      </Section>
-      <Section id="skills">
-        <Skills />
-      </Section>
-      <Section id="experience">
-        <Experience />
-      </Section>
-      <Section id="certifications">
-        <Certifications />
-      </Section>
-      <Section id="education">
-        <Education />
-      </Section>
+
+      {navIds.map(({ id, component }) => (
+        <Section id={id} key={id}>
+          {component}
+        </Section>
+      ))}
     </div>
   );
 };
