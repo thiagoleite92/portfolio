@@ -6,43 +6,6 @@ const experiences = [
     Além de correção de bugs em diversos projetos.`,
     empresa: 'Verzel',
   },
-  {
-    title: 'Personal Trainer',
-    period: 'Jan/2019 - Mar/2020',
-    description: `Periodizar programas de treinamento físico para público em geral.`,
-    empresa: 'Autônomo',
-  },
-  {
-    title: 'Professor de Musculação',
-    period: 'Jul/2018 - Aug/2019',
-    description: `Personal Trainer exclusivo em academias privativas.`,
-    empresa: 'Goal Gestão Esportiva',
-  },
-  {
-    title: 'Estágio',
-    period: 'Jan/2019 - Jun/2019',
-    description: `Acompanhamento do treinamento resistido de pessoas com doenças crônicas ou pessoas
-    com DST`,
-    empresa: 'Hospital das Clínicas - UFPE',
-  },
-  {
-    title: 'Estágio',
-    period: 'Jul/2018 - Dez/2018',
-    description: `Acompanhamento e periodização de treinamento com para-atletas.`,
-    empresa: 'Núcleo de Educação Física - UFPE',
-  },
-  {
-    title: 'Estágio',
-    period: 'Jan/2018 - Jun/2018',
-    description: `Auxiliar professores de hidroginástica para idosos e treinadores de iniciação esportiva na natação com crianças e adolescentes.`,
-    empresa: 'Sport Club do Recife',
-  },
-  {
-    title: 'Estágio',
-    period: 'Dez/2017 - Mai/2018',
-    description: `Supervisionar e auxiliar alunos no treinamento resistido (musculação)`,
-    empresa: 'Gym Fit',
-  },
 ];
 
 export const Experience = () => {

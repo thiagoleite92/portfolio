@@ -49,9 +49,9 @@ export const About = () => {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center gap-4">
-        <p className="flex h-fit  gap-4 text-justify text-2xl">
-          Olá, meu nome é Thiago Leite. Ex-profissional de educação física em
-          transição de carreira para área tech.
+        <p className="h-fit  gap-4 text-justify text-2xl">
+          Olá, meu nome é <strong>Thiago Leite</strong>, ex-profissional de
+          Educação Física em transição de carreira para área de tecnologia.
         </p>
       </div>
     </div>
